@@ -1,0 +1,50 @@
+.login-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 500px;
+    margin: 150px auto; /* Center align and add margin */
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    background-color: rgb(197, 193, 193);
+}
+
+.login-box h2 {
+    color:  "#d8613c"; /* Change heading color */
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: block; /* Ensure each form group appears on a new line */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: calc(100% - 20px); 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-button {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 110px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    margin-left: 100px;
+
+}
+
+.login-button:hover {
+    background-color: #d8613c;
+}

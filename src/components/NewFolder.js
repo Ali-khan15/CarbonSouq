@@ -1,0 +1,2 @@
+pip install selenium pandas openpyxl beautifulsoup4
+patl21MQ1cQgYbzQt.10d1337197496f02681cf0002a801ef20c4fd261e6e37f227566776d2c5a29ec

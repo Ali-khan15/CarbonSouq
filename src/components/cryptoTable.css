@@ -1,0 +1,191 @@
+/* cryptoTable.css */
+
+.container {
+  padding: 0 80px; /* Add left and right padding */
+}
+.crypto-overview-container {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.crypto-overview-header {
+  margin-bottom: 20px;
+}
+
+.crypto-overview-header h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.crypto-overview-header p {
+  font-size: 16px;
+  color: #666;
+}
+
+.crypto-overview-header .text-red {
+  color: #ff4d4f;
+}
+
+.crypto-overview-header a {
+  color: #0073ff;
+  text-decoration: none;
+}
+
+.crypto-overview-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.market-cap-volume-card, .trending-card, .gainers-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.market-cap-volume-card h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.market-cap-volume-card p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.market-cap-volume-card .overview-graph {
+  width: 100%;
+  height: auto;
+}
+
+.trending-card .card-header, .gainers-card .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.trending-card h4, .gainers-card h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.trending-card ul, .gainers-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.trending-card li, .gainers-card li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.trending-card li .text-red, .gainers-card li .text-red {
+  color: #ff4d4f;
+}
+
+.trending-card li .text-green, .gainers-card li .text-green {
+  color: #52c41a;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-item {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #666;
+  background-color: #e8f5e9; /* Background color like the "All" button */
+  padding: 8px 12px; /* Padding to match the "All" button */
+  border-radius: 10px; /* Rounded corners for all items */
+  font-weight: bold;
+  font-size: 14px; /* Font size adjustment */
+}
+
+.nav-item:hover, .nav-item.active {
+  color: #000;
+  font-weight: bold;
+}
+
+.customise {
+  margin-left: auto;
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Rest of the CSS remains unchanged */
+
+.crypto-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 40px}
+
+.crypto-table th, .crypto-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.crypto-table th {
+  /* background-color: #f4f4f4; */
+}
+
+.crypto-table tr:hover {
+  /* background-color: #f1f1f1; */
+}
+
+.crypto-table img {
+  width: 30px;
+  height: auto;
+}
+
+.star-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #ccc; /* Default color of the star */
+  outline: none;
+  padding: 0;
+}
+
+.star-button.filled {
+  color: #f00; /* Red color when the star is clicked */
+}
+
+.coin-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.buy-box {
+  color: rgba(75, 204, -10, 1);
+  border: 2px solid rgba(75, 204, -10, 1);
+  padding: 2px 8px; /* Smaller padding for reduced height and width */
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  font-size: 12px; /* Smaller font size */
+  line-height: 1; /* Ensure the box height is compact */
+}
